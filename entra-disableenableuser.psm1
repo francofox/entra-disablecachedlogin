@@ -56,7 +56,7 @@ function Disable-EntraUser {
         Write-Host "Deny logon policy applied to $UPN"
     }
 }
-function Disable-EntraUser {
+function Enable-DisabledEntraUser {
     [CmdletBinding()]
     param(
         [Parameter(Mandatory)][String] $UPN
